@@ -14,7 +14,11 @@ module.exports = {
         }
         else if (path ==='/hello' && params.name=='Pierre')
         {
-            res.write('Minia zavutfzaazdazazdazddrgzdezfegerfezg Psssssiotr');
+            res.write('I am Pierre');
+        }
+        else if (path ==='/hello' && params.name=='Robinson')
+        {
+            res.write('I am Robinson');
         }
         else if (path === '/hello' && 'name' in params) {
             res.write('Hello ' + params['name'])
